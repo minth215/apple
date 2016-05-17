@@ -1,0 +1,29 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col s12 center">
+      <h1>초간단 오목 만들기</h1>
+    </div>
+
+    <!-- go-board -->
+    <div class="col s12 center">
+      <div class="omok_table">
+        <% for i in 0..15 %>
+          <div class="go-row">
+            <% for j in 0..15 %>
+              <!-- this is the cell for our go-board, place stones in this 'div' tag -->
+              <div class="go-cell" data-occupied="false"></div>
+            <% end %>
+          </div>
+          <br>
+        <% end %>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!--
+  U should modify below script only
+-->
+<script>
+</script>
